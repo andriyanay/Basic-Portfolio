@@ -2,33 +2,52 @@
 <!DOCTYPE html>
 <html>
 <head>
- <!--  to link css file later use this  
-     <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+
     <meta charset="UTF-8">
     <title>Andriyana's Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <h1>Andriyana Yakymyshyn</h1>
-    </header>
+    <div class="main-header">
+        <header>
+            <h1>Andriyana Yakymyshyn</h1>
+        </header>
 
     <div class="buttons">
         <h2>About</h2>
-        <h2>Portfolio</h2>
-        <h2>Contact</h2>
+        <h3>Portfolio</h3>
+        <h4>Contact</h4>
     </div>
+</div>
 
 
     <div class="main">
-        <h3>Contact</h3>
+        <h5>Contact</h5>
         
-        <h5>Name</h5>
-        <h5>Email</h5>
-        <h5>Message</h5>
+        <div class="submissionform">
+        <form action="/action_page.php">
+          <p id="nametext">
+            <label for="name">Name</label> 
+            <input type="text" name="name" placeholder="Your Name"><br>
+          </p>
+        <p id="emailtext">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="youremail@email.com"><br>
+        </p>
+        <p id="messagetext">
+            <label for="message">Message</label>
+            <input type="text" name="message"><br>
+        </p>
+        <p id="submitbutton">
+            <input type="submit" value="Submit">
+        </p>
+        </form>
 
-    <h4>© Copyright </h4>
-    </div>
+    </div> </div> 
+        <div class="footer">
+            <h6> Copyright ©</h6>
+            </div>
     
 </body>
 </html>

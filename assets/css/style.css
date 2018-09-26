@@ -1,6 +1,7 @@
+/*details for the first page and main set up goes here*/
 body{
-background-image: url("../images/dust_scratches.png");
-width: 100%;
+    background-image: url("../images/dust_scratches.png");
+    width: 100%;
 }
 
 .main-header{
@@ -11,8 +12,8 @@ width: 100%;
     border-color: #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
     height: 68px;
-position: relative;
-top: -10px;
+    position: relative;
+    top: -10px;
 }
 
 
@@ -27,22 +28,22 @@ h1{
     position: relative;
     left: 160px;
     top: -15.5px;
-
 }
 
 h2{
-    position: fixed;
-    top: 25px;
+    position: relative;
+    top: 15px;
     right: 370px;
     padding: 10px;
     text-align: center;
     font-size: 12px;
     float: right;
 }
+
 h3{
-    position: fixed;
-    top: 22px;
-    right: 265px; 
+    position: relative;
+    top: 12.5px;
+    right: 200px; 
     padding: 10px;
     text-align: center;
     font-size: 12px;
@@ -50,9 +51,9 @@ h3{
 }
 
 h4{
-    position: fixed;
-    top: 19px;
-    right: 170px; 
+    position: relative;
+    top: 8.5px;
+    right: 20px; 
     padding: 10px;
     text-align: center;
     font-size: 12px;
@@ -65,36 +66,92 @@ h5{
     border-bottom: 1px solid;
     border-color: #cccccc;
     font-size: 24px;
-    padding-left: 15px;
+    padding-left: 20px;
     float: left;
-width: 98.5%;
-margin: 0;
+    width: 100%;
+    margin: 0;
+
 }
 
 #bio-image{
-    width: 250px;
+    width: 220px;
     float: left;
+    padding: 20px;
 }
 
 p{
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-font-size: 12px;
+    font-size: 12px;
+    line-height: 25px;
 }
+
+#first{ 
+    padding-top: 70px;
+}   
 
 .main{
     background-color: #ffffff;
+    border: 1px solid;
     border-color: #dddddd;
     color: #777777;
-    border: 1px solid red;
     width: 960px;
     margin: 0 auto;
+    position: relative;
 }
 
 .footer{
     background-color: #666666;
-    color: #777777;
+    color: #cccccc;
+    border-top: 4px solid;
     border-color: #4aaaa5;
+    position: fixed;
+    width: 100%; 
+    bottom: 0px;
+    height: 40px;
 }
+
+h6{
+    text-align: center;
+}
+
+/*details for the contact page start here*/
+
+input[type="text"]{
+    width: 100%;
+    height: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+input[type="email"]{
+    width: 100%;
+    height: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.submissionform{
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 30px;}
+
+    input[type="submit"]{
+        background-color: #4aaaa5;
+        color: #ffffff;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    }
+
+/*details for the portfolio page start here*/
+
+.images{
+    padding-left: 20px;
+    padding-top: 200px;
+}
+
+
 
 
