@@ -134,6 +134,12 @@ input[type="email"]{
     font-size: 12px;
     padding-left: 5px;
 }
+
+textarea{
+    width: 903px;
+    Height: 150px;
+}
+
 .submissionform{
     padding-top: 70px;
     padding-left: 20px;
@@ -151,35 +157,118 @@ input[type="email"]{
 
 .images{
     padding-left: 20px;
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 #hangman{
-width: 200px;
-height: 150px;
+width: 170px;
+height: 110px;
+padding-bottom: 20px;
+padding-right: 20px;
+position: relative;
 }
 
 #rpggame{
-    width: 200px;
-    height: 150px;
+    width: 170px;
+    height: 110px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    position: absolute;
+    left: 200px;
+    top: 75px;
 }
 
 #triviagame{
-    width: 200px;
-    height: 150px;
+    width: 170px;
+    height: 110px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    position: relative;
+    top: 0px;
 }
 
 #rutgersinfowidgets{
-    width: 200px;
-    height: 150px;
-
+    width: 170px;
+    height: 110px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    position: absolute;
+    left: 200px;
+    top: 210px;
 }
 
 #rockpaperscissors{
-    width: 200px;
-    height: 150px;
+    width:170px;
+    height: 110px;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 
+#hangmantext{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 15px;
+    width: 170px;  
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: absolute;
+    top: 125px;
+}
+
+#rpgtext{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 15px;
+    width: 170px;  
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: absolute;
+    top: 125px;
+    left: 220px;
+}
+
+#triviatext{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 15px;
+    width: 170px;  
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: absolute;
+    top: 260px;
+}
+
+#widgets{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 15px;
+    width: 170px;  
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: absolute;
+    top: 260px;
+    left: 220px;
+}
+    #rpstext{
+        background-color: #4aaaa5;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size: 15px;
+        width: 170px;  
+        padding-top: 8px;
+        padding-bottom: 8px;
+        position: absolute;
+        top: 395px;
+    }
 
 
 
